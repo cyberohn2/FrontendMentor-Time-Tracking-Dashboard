@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+   
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="container grid-container">
+    <div class="user-container">
+      <div class="user-info flexbox">
+        <div class="user-img">
+          <img src="./images/image-jeremy.png" width="100%" alt="Jeremy">
+        </div>
+        <div class="username">
+          <p class="report-for"> Report for</p>
+          <h3 class="user">Jeremy Robson</h3>
+        </div>
+      </div>
+      <div class="timeframe-container">
+        <ul class="flexbox">
+          <li data-daily class="daily timeframe-time">Daily</li>
+          <li data-weekly class="weekly timeframe-time active">Weekly</li>
+          <li data-yearly class="monthly timeframe-time">Monthly</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="reports-container grid-container">
+      <div class="reports work">
+        <img class="report-icon" src="./images/icon-work.svg" width="50px" alt="">
+        <div class="report-details">
+          <div class="report-type flexbox">
+            <p class="report-type-text">Work</p>
+            <img class="ellipsis-img" src="./images/icon-ellipsis.svg" width="20px" alt="">
+          </div>
+          <div class="report-time flexbox">
+            <h1 class="current-time">32hrs</h1>
+            <p class="frequency">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="reports play">
+        <img class="report-icon" src="./images/icon-play.svg" width="50px" alt="">
+        <div class="report-details">
+          <div class="report-type flexbox">
+            <p class="report-type-text">Play</p>
+            <img class="ellipsis-img" src="./images/icon-ellipsis.svg" width="20px" alt="">
+          </div>
+          <div class="report-time flexbox">
+            <h1 class="current-time">10hrs</h1>
+            <p class="frequency">Last Week - 8hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="reports study">
+        <img class="report-icon" src="./images/icon-study.svg" width="50px" alt="">
+        <div class="report-details">
+          <div class="report-type flexbox">
+            <p class="report-type-text">Study</p>
+            <img class="ellipsis-img" src="./images/icon-ellipsis.svg" width="20px" alt="">
+          </div>
+          <div class="report-time flexbox">
+            <h1 class="current-time">4hrs</h1>
+            <p class="frequency">Last Week - 7hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="reports exercise">
+        <img class="report-icon" src="./images/icon-exercise.svg" width="50px" alt="">
+        <div class="report-details">
+          <div class="report-type flexbox">
+            <p class="report-type-text">Exercise</p>
+            <img class="ellipsis-img" src="./images/icon-ellipsis.svg" width="20px" alt="">
+          </div>
+          <div class="report-time flexbox">
+            <h1 class="current-time">4hrs</h1>
+            <p class="frequency">Last Week - 5hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="reports social">
+        <img class="report-icon" src="./images/icon-social.svg" width="50px" alt="">
+        <div class="report-details">
+          <div class="report-type flexbox">
+            <p class="report-type-text">Social</p>
+            <img class="ellipsis-img" src="./images/icon-ellipsis.svg" width="20px" alt="">
+          </div>
+          <div class="report-time flexbox">
+            <h1 class="current-time">5hrs</h1>
+            <p class="frequency">Last Week - 10hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="reports self-care">
+        <img class="report-icon" src="./images/icon-self-care.svg" width="50px" alt="">
+        <div class="report-details">
+          <div class="report-type flexbox">
+            <p class="report-type-text">Self Care</p>
+            <img class="ellipsis-img" src="./images/icon-ellipsis.svg" width="20px" alt="">
+          </div>
+          <div class="report-time flexbox">
+            <h1 class="current-time">2hrs</h1>
+            <p class="frequency">Last Week - 2hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/cyberohn2">Cyberohn</a>.
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
